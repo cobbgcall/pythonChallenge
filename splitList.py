@@ -27,4 +27,4 @@ def split_list(items: list) -> list:
 
 if __name__ == '__main__':
     print("Example:")
-    print(split_list([1, 2, 3]))
+    print(split_list([1, 2, 3,4,5,6]))
