@@ -4,10 +4,15 @@ input("Press enter...")
 
 def evenlast(numbers):
     result = 0
-    print(len(numbers))
+    
     for n in numbers:
         even = numbers.index(n) % 2
-        if even == 0:
+        if even == 1:
             result += int(n)
-        
-evenlast(even)
+            continue
+    evenlast = result * int(numbers[numbers.index(n)])
+
+    return evenlast  
+
+last = evenlast(even)
+print(last)
